@@ -1,5 +1,6 @@
-
-et up phusion passenger test env
+#!/bin/bash -
+#
+# Set up phusion passenger test env
 #
 # ryan@rchapman.org
 # Fri Sep 23 03:47:41 UTC 2016
@@ -127,3 +128,5 @@ logit "Installing htop: done"
 logit "Installing perf"
 run "yum -y install perf"
 logit "Installing perf: done"
+
+
